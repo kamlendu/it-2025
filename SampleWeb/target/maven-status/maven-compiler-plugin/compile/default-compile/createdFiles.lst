@@ -1,0 +1,6 @@
+com/mycompany/sampleweb/resources/JakartaEE8Resource.class
+entity/Address.class
+entity/Customer.class
+entity/Subscription.class
+servlets/BookServlet.class
+com/mycompany/sampleweb/JakartaRestConfiguration.class
