@@ -1,0 +1,5 @@
+servlets/FirstServlet.class
+servlets/ThirdServlet.class
+com/mycompany/dispatchapp/JakartaRestConfiguration.class
+servlets/SecondServlet.class
+com/mycompany/dispatchapp/resources/JakartaEE8Resource.class
