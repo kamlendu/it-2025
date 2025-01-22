@@ -1,0 +1,4 @@
+com/mycompany/myfilterapp/JakartaRestConfiguration.class
+servlets/FirstServlet.class
+filter/FirstFilter.class
+com/mycompany/myfilterapp/resources/JakartaEE8Resource.class
