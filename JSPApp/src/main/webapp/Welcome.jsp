@@ -28,6 +28,9 @@
             
             //out.println("Full Name : "+ fullName);
             
+            session.setAttribute("full", fullName);
+            application.setAttribute("company", "ABC Ltd.");
+
             %>
         
         
