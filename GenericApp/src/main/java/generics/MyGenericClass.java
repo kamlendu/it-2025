@@ -10,9 +10,10 @@ import java.util.List;
 /**
  *
  * @author root
+ * @param <T>
  */
 public class MyGenericClass<T> {
-    T obj;
+    
     List<T> li = new ArrayList<>();
 
     public List<T> getLi() {

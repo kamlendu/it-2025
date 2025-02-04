@@ -8,32 +8,14 @@ package threads;
  *
  * @author root
  */
-
-
-public class MyThread implements Runnable {
-Printed p;
-    String id;
-    int x=0;
-
-    public MyThread(String id, Printed p) {
-        this.id = id;
-        this.p=p;
-       
-    }
+public class Printed {
     
-    @Override
-    public void run() {
-        p.print();
-        //print();
-    }
-    
-  
-   synchronized public void print()
+     synchronized public void print()
   {
       int y=0;
        for(int i=0; i<6 ; i++)
     {
-       
+       // x++;
         y++;
 //        try {
 //            Thread.sleep(100);
@@ -44,6 +26,5 @@ Printed p;
         System.out.println(" The "+ Thread.currentThread().getName() + " thread is running y= "+y);
     }
   }
-     
-   
+    
 }

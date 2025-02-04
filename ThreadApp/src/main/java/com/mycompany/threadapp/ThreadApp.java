@@ -4,37 +4,59 @@
 
 package com.mycompany.threadapp;
 
-import threads.MessagePrinter;
-import threads.MessageThread;
-import threads.MyThread;
+import threads.AQueue;
+
+import threads.Consumer;
+import threads.Producer;
 
 /**
  *
  * @author root
  */
-public class ThreadApp extends Thread {
+public class ThreadApp  {
     
       
 
     public static void main(String[] args) throws InterruptedException {
+   
+       // new DeadLock();
+       // BankOperation b= new BankOperation();
+        AQueue aq = new AQueue();
+        Producer p = new Producer(aq);
+        Consumer c = new Consumer(aq);
+        Thread consumer = new Thread(c,"consumer");
+        consumer.start();
+        Thread producer = new Thread(p,"producer");
+        producer.start();
+        
        
-//        Thread t1 = new Thread(new MyThread("first"));
-//        Thread t2 = new Thread(new MyThread("second"));
+//        
+ //       Printed p = new Printed();
+        
+   //  Creating thread using Runnable    
+ //           p.print();
+ //      Thread t1 = new Thread(new MyThread("first",p),"first");
+  //     Thread t2 = new Thread(new MyThread("second",p), "second");
+//Creating thread using Thread class
 //       MyThread t1 = new MyThread("first");
 //        MyThread t2 = new MyThread("second");
 //         MyThread t3 = new MyThread("third");
 //  // t1.setName("one");t2.setName("two");
   
-  MessagePrinter mp = new MessagePrinter();
-  MessageThread mt1 = new MessageThread(mp, "hello");
-  MessageThread mt2 = new MessageThread(mp, "mydemo");
-  MessageThread mt3 = new MessageThread(mp, "synchronous");
+//  MessagePrinter mp = new MessagePrinter();
+//  MessageThread mt1 = new MessageThread(mp, "hello");
+//  MessageThread mt2 = new MessageThread(mp, "mydemo");
+//  MessageThread mt3 = new MessageThread(mp, "synchronous");
   
-   System.out.println(Thread.currentThread().getName());
+  
+//t1.start();
+//t2.start();
+  
+   
        
-        mt1.start();
-        mt2.start();
-        mt3.start();
+//        mt1.start();
+//        mt2.start();
+//        mt3.start();
         
 //        System.out.println(" t1 is alive "+ t1.isAlive());
 //        System.out.println(" t2 is alive "+ t2.isAlive());

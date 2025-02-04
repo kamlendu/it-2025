@@ -21,7 +21,9 @@ public class MessageThread extends Thread{
     @Override
     public void run() {
       //  super.run(); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
-    m.printMessage(message);
+    //synchronized(m) {
+      m.printMessage(message);
+    //}
     
     }
     
