@@ -8,3 +8,8 @@
 /RemoteWebApp/target/
 /EJBJSPApp/target/
 /SingletonApp/target/
+/InternalSolution/target/
+/MessagingModule/nbproject/private/
+/MessagingModule/dist/
+/MessagingModule/build/
+/MessageClientApp/target/
