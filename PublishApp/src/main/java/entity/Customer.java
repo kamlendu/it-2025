@@ -20,6 +20,7 @@ import javax.persistence.NamedQueries;
 import javax.persistence.NamedQuery;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
+import javax.persistence.Transient;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
@@ -52,6 +53,7 @@ public class Customer implements Serializable {
     @Size(min = 1, max = 50)
     @Column(name = "LastName")
     private String lastName;
+       
     @JoinTable(name = "cust_subs", joinColumns = {
         @JoinColumn(name = "CustomerId", referencedColumnName = "CustomerID")}, inverseJoinColumns = {
         @JoinColumn(name = "SubscriptionId", referencedColumnName = "SubscriptionId")})
