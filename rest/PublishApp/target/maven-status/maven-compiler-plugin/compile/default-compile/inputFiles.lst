@@ -1,0 +1,11 @@
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/servlets/RestPublishServlet.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/ejb/PublishBeanLocal.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/entity/Customer.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/entity/Address.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/com/mycompany/publishapp/JakartaRestConfiguration.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/ejb/PublishBean.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/client/PublishClient.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/rest/PublishResource.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/servlets/PublishServlet.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/entity/Subscription.java
+/root/NetBeansProjects/it-2025/rest/PublishApp/src/main/java/com/mycompany/publishapp/resources/JakartaEE8Resource.java
