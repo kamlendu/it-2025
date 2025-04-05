@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        
+        <h:form>
+            
+                
+            <h:dataTable var="b" value="#{employeeBean.books}" border="1">
+                <h:column>
+                    <f:facet name="header">Id</f:facet>
+                    #{b.bookID}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Name</f:facet>
+                    #{b.bookName}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Publisher</f:facet>
+                    #{b.publisherName}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Author</f:facet>
+                    #{b.authorName}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Synopsis</f:facet>
+                    #{b.synopsis}
+                </h:column>
+             </h:dataTable>
+            
+            <br/>
+            <h:selectOneMenu id="bname" value="#{employeeBean.bookName}">
+                <f:selectItems var="b" value="#{employeeBean.books}" itemLabel="#{b.bookName}" itemValue="#{b.bookName}"/>
+            </h:selectOneMenu>
+            
+            
+            
+            <br/>
+            
+            <h:dataTable var="e" value="#{employeeBean.employees}" border="1">
+                <h:column>
+                    <f:facet name="header">Id</f:facet>
+                    #{e.emno}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Name</f:facet>
+                    #{e.ename}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Email</f:facet>
+                    #{e.email}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Salary</f:facet>
+                    #{e.salary}
+                </h:column>
+                <h:column>
+                    <f:facet name="header">City</f:facet>
+                    #{e.city}
+                </h:column>
+             </h:dataTable>
+            
+            
+            
+            
+            
+            
+        </h:form>
+        
+       
+    </h:body>
+</html>
