@@ -18,3 +18,17 @@
 /PublishApp/target/
 /RestApp/target/
 /JSFApp/target/
+/security-applications/filter-based-security/JSFSecurityApp/target/
+/security-applications/filter-based-security/JavaSecurityApp/target/
+/security-applications/httpauth-based-security/SecurityApp/target/
+/security-applications/httpauth-based-security/jsf-httpauth-rest-jsflogin/SecureJSFApp/build/
+/security-applications/httpauth-based-security/jsf-httpauth-rest-jsflogin/SecureJSFApp/dist/
+/security-applications/httpauth-based-security/jsf-httpauth-rest-jsflogin/SecureJSFApp/nbproject/private/
+/security-applications/httpauth-based-security/securejsfwithhttp-auth_htmllogin/SecureJSFApp/build/
+/security-applications/httpauth-based-security/securejsfwithhttp-auth_htmllogin/SecureJSFApp/dist/
+/security-applications/httpauth-based-security/securejsfwithhttp-auth_htmllogin/SecureJSFApp/nbproject/private/
+/security-applications/jwt-based-security/SecurityApp/target/
+/security-applications/jwt-based-security/jsf-jwt-security-htmllogin/SecureJSFApp/target/
+/security-applications/jwt-based-security/jsf-jwt-security-jsflogin/SecureJSFApp/build/
+/security-applications/jwt-based-security/jsf-jwt-security-jsflogin/SecureJSFApp/nbproject/private/
+/JavaSecurityApp/target/

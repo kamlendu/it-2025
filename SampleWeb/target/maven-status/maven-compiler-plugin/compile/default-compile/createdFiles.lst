@@ -1,9 +1,4 @@
-servlets/HelloServlet.class
 com/mycompany/sampleweb/resources/JakartaEE8Resource.class
-entity/Address.class
-servlets/CookieServlet.class
-entity/Customer.class
-entity/Subscription.class
-servlets/BookServlet.class
-servlets/TestServlet.class
+config/Project.class
 com/mycompany/sampleweb/JakartaRestConfiguration.class
+servlets/SecureServlet.class
