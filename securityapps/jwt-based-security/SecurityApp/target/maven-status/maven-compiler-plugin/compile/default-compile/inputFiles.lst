@@ -1,0 +1,13 @@
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/client/HelloClient.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/it/securityapp/JakartaRestConfiguration.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/jwtrest/JWTCredential.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/it/securityapp/resources/JakartaEE8Resource.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/client/MyRestFilter.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/record/KeepRecord.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/servlets/SecureServlet.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/ejb/HelloBean.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/ejb/HelloBeanLocal.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/config/Project.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/jwtrest/Constants.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/auth/SecureAuthentication.java
+/root/NetBeansProjects/it2024/trial/jwt-based-security/SecurityApp/src/main/java/jwtrest/TokenProvider.java

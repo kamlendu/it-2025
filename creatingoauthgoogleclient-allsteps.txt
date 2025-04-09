@@ -11,3 +11,6 @@ Steps to create OAuth/ OpenIdConnect Project on Google
 8. Give base URI of the project
 9. Give Redirect URI and then press create. 
 10. Your application will be created. click the application. you will be getting ClientID and Client Secret which we use it in Java Project
+
+
+

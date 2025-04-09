@@ -1,0 +1,10 @@
+ejb/TestEJB.class
+rest/TestRest.class
+config/Project.class
+client/RestClient.class
+it/securityapp/JakartaRestConfiguration.class
+client/RestClient$1.class
+auth/SecureAuthentication.class
+it/securityapp/resources/JakartaEE8Resource.class
+record/KeepRecord.class
+servlets/SecureServlet.class

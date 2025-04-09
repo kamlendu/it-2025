@@ -1,0 +1,8 @@
+/root/NetBeansProjects/it2024/trial/JavaSecurityApp/src/main/java/it/javasecurityapp/JakartaRestConfiguration.java
+/root/NetBeansProjects/it2024/trial/JavaSecurityApp/src/main/java/ejb/SecureBean.java
+/root/NetBeansProjects/it2024/trial/JavaSecurityApp/src/main/java/config/Project.java
+/root/NetBeansProjects/it2024/trial/JavaSecurityApp/src/main/java/record/KeepRecord.java
+/root/NetBeansProjects/it2024/trial/JavaSecurityApp/src/main/java/it/javasecurityapp/resources/RestResource.java
+/root/NetBeansProjects/it2024/trial/JavaSecurityApp/src/main/java/client/RestClient.java
+/root/NetBeansProjects/it2024/trial/JavaSecurityApp/src/main/java/filter/AuthenticationFilter.java
+/root/NetBeansProjects/it2024/trial/JavaSecurityApp/src/main/java/servlets/SecureServlet.java

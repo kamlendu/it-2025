@@ -5,7 +5,7 @@
 package config;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.security.enterprise.authentication.mechanism.http.FormAuthenticationMechanismDefinition;
+import javax.security.enterprise.authentication.mechanism.http.CustomFormAuthenticationMechanismDefinition;
 import javax.security.enterprise.authentication.mechanism.http.LoginToContinue;
 import javax.security.enterprise.identitystore.DatabaseIdentityStoreDefinition;
 import javax.security.enterprise.identitystore.Pbkdf2PasswordHash;
@@ -15,19 +15,19 @@ import javax.security.enterprise.identitystore.Pbkdf2PasswordHash;
  * @author root
  */
 
-@FormAuthenticationMechanismDefinition(
-        loginToContinue = @LoginToContinue(
-                loginPage = "/index.jsp"
-                ,errorPage = "/loginError.jsp"
-              
-        )
-)
-
-//@CustomFormAuthenticationMechanismDefinition(
+//@FormAuthenticationMechanismDefinition(
 //        loginToContinue = @LoginToContinue(
 //                loginPage = "/index.jsp"
+//                ,errorPage = "/loginError.jsp"
+//              
 //        )
 //)
+
+@CustomFormAuthenticationMechanismDefinition(
+        loginToContinue = @LoginToContinue(
+                loginPage = "/index.jsp"
+        )
+)
 
 
 

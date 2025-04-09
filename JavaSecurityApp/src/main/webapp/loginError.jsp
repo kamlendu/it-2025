@@ -15,7 +15,7 @@
     </head>
     <body>
         <p><a href="index.jsp"> Go to Login Page</a> </p>
-        <h2>OOPS !! You are not authorized to access this Servlet</h2>
+        <h2>OOPS !! Either username or password is wrong !</h2>
   
     
     </body>
